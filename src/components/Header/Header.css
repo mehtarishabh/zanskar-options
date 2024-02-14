@@ -1,0 +1,41 @@
+.Header {
+  height: 60px;
+  background-color: antiquewhite;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+}
+
+.Header__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.Header__link {
+  padding: 5px 20px;
+  font-weight: 500;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 300px;
+  text-decoration: none;
+  background-color: transparent;
+
+  &:hover {
+    background-color: aquamarine;
+  }
+}
+
+.Header__link--active {
+  background-color: rgb(33, 130, 241);
+
+  &:hover {
+    background-color: rgb(33, 130, 241);
+  }
+}
